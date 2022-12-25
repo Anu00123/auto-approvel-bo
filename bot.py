@@ -34,7 +34,4 @@ async def autoapprove(client: Anu00123, message: ChatJoinRequest):
         await client.send_message(chat_id=chat.id, text=TEXT.format(mention=user.mention, title=chat.title))
 
 print("𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱")
-Anu00123.run()     
-
-
-    
+Anu00123.run()   
